@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.hero-text img {
+  width: 243px;
+  height: 243px;
+  flex-shrink: 0;
+  border-radius: 243px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+/* ! HEADER START */
+#header {
+  margin: 2pc 0;
+}
+.header {
+  display: flex;
+  justify-content: end;
+}
+.header-logo a {
+  margin-left: 60px;
+  justify-content: end;
+  color: #000;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.7s;
+}
+.header-logo img {
+  display: none;
+}
+.header-logo a:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+/* ! HEADER END */
+
+/* ! HERO START */
+#hero {
+  margin: 158px 0 71px 0;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text h1 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.hero-text p {
+  margin: 47px 0 40px 0;
+  color: var(--Dark-Color, #21243d);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.hero-text button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  background: var(--Primary, #ff6464);
+}
+/* BLOCKS */
+#blocks {
+  background: #edf7fa;
+  height: 396px;
+  flex-shrink: 0;
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  background: #edf7fa;
+}
+.items-block {
+  width: 418px;
+  height: 295px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+}
+
+.blocks-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2pc 0;
+}
+.blocks-text h1 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 60px;
+}
+.blocks-text h2 {
+  color: var(--Secondry, #00a8cc);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 60px;
+}
+.items-block-text {
+  padding: 2pc 0 0 2pc;
+}
+
+.items-block-text h1 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 26px;
+  font-weight: 700;
+}
+.items-block-text h2 {
+  margin: 2pc 0;
+  color: var(--Dark-Color, #21243d);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.items-block-tex {
+  background: rgb(255, 255, 255);
+  width: 418px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.items-block-tex h1 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 26px;
+  font-weight: 700;
+}
+.items-block-tex h2 {
+  margin: 2pc 0;
+  color: var(--Dark-Color, #21243d);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* DESIG */
+.desig {
+  margin-top: 100px;
+  background: white;
+}
+.desig-one h1 {
+  /* margin: 40px 0; */
+  margin-top: -70px;
+}
+.desig-one h1 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.ammet {
+  display: flex;
+}
+.ammet1 {
+  display: flex;
+  margin: 90px 0;
+}
+.ammet1 p {
+  line-height: 100px;
+}
+.box {
+  display: flex;
+  margin: 1pc 410px;
+}
+.box h1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 60px; /* 333.333% */
+  width: 62px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #142850;
+}
+.box h2 {
+  color: var(--Light, #8695a4);
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 2pc;
+}
+.ameet-text p {
+  color: var(--Dark-Color, #21243d);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 150px;
+}
+.ameet-text h1 {
+  margin-left: -40px;
+}
+.ammet img {
+  display: flex;
+}
+.lump {
+  display: none;
+}
+.ammet {
+  margin-bottom: 5pc;
+}
+.ameet-text {
+  margin-left: -20pc;
+  margin-top: 100px;
+  justify-content: flex-start;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8pc 3pc 0;
+}
+.footer h1 {
+  color: var(--Dark, #21243d);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.footer-info svg {
+  margin-left: 1pc;
+}
+/* ! HERO END */
